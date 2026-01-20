@@ -44,26 +44,32 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose is to explore how a person's music preference changes with age and determine if age is associated with a difference in enjoyment and understanding of different music genres. The survey aims to collect data that can be analyzed to identify patterns of music taste across age groups for an academic paper. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: adults over 18
+Sample frame: students, faculty and staff at UofT
+Sample units: people who meet the age criteria
+Observational units: survey responses
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+What is your current age? 18–29, 30–44, 45–59,  60+
+
+Which of the following best describes your gender?
+- Female - Male - Non-binary - Prefer not to say
+
+On average, how many hours per week do you listen to music?
+- Less than 1 -  1–5 - 6–10 - 11–20 - More than 20
+
+Which music genres do you enjoy most currently? (Select up to 3)
+- Pop - Rock - Hip-Hop/Rap - Country - Electronic/Dance - Classical - Jazz - R&B/Soul - Other: _________
+
+Thinking back to when you were a teenager (13–19), which genres did you enjoy most? (Select up to 3)
+- Pop - Rock - Hip-Hop/Rap - Country - Electronic/Dance - Classical - Jazz - R&B/Soul - Other: _________
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +77,21 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Sample type and target: probability sampling with age 15+ criteria
+Size: 20000 responses
+Sample frame: Statistics Canada’s Labour Force Survey (LFS) sampling frame
+Survey modes: phone interviews, paper based qs and online responses.
+Time: year 2018
+Response rate: 50%
+Limitations and known biases:
+- Excludes populations in institutionalized settings (e.g., long-term care).
+- May under-represent marginalized groups due to non-response or lack of telephone access.
+- Response biases due to social desirability in reporting giving/volunteering.
+Sources of error
+- Sampling error: due to the sample design and finite sample size.
+- Non-response bias: respondents may differ from non-respondents on key variables.
+- Measurement error: self-reported data may include recall bias.
+- Processing errors: though minimized through quality control, still possible.
 ```
 
 ## Rubric
