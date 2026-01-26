@@ -44,26 +44,33 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose is to explore how a person's music preference changes with age and determine if age is associated with a difference in enjoyment and understanding of different music genres. The survey aims to collect data that can be analyzed to identify patterns of music taste across age groups for an academic paper. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+
+Target population: Adults aged 18 years and older who reside in Canada and regularly listen to music. This population is appropriate because it allows for both cross-sectional comparisons between age groups and retrospective comparisons within individuals across different life stages. 
+Sampling frame: The sampling frame will consist of students, faculty, and staff at the University of Toronto, as well as community members recruited online. Participants will be accessed through university email listservs, course mailing lists, and official student newsletters. The survey will also be distributed via online platforms such as social media (e.g., Facebook groups, Reddit communities related to music) and shared through a secure survey link hosted on Qualtrics. 
+Sampling units: Individual persons who meet the age and music-listening criteria and receive the survey invitation. 
+Observational units: Each completed survey response represents one observational unit, as data are collected at the individual level. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+What is your current age? 18–29, 30–44, 45–59,  60+
+
+Which of the following best describes your gender?
+- Female - Male - Non-binary - Prefer not to say
+
+On average, how many hours per week do you listen to music?
+- Less than 1 -  1–5 - 6–10 - 11–20 - More than 20
+
+Which music genres do you enjoy most currently? (Select up to 3)
+- Pop - Rock - Hip-Hop/Rap - Country - Electronic/Dance - Classical - Jazz - R&B/Soul - Other: _________
+
+Thinking back to when you were a teenager (13–19), which genres did you enjoy most? (Select up to 3)
+- Pop - Rock - Hip-Hop/Rap - Country - Electronic/Dance - Classical - Jazz - R&B/Soul - Other: _________
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +78,28 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Sample type and target: probability sampling with age 15+ criteria
+Size: 20000 responses
+Sample frame: Statistics Canada’s Labour Force Survey (LFS) sampling frame
+Survey modes: phone interviews, paper based qs and online responses.
+Time: year 2018
+Response rate: 50%
+Limitations and known biases:
+- Excludes populations in institutionalized settings (e.g., long-term care).
+- May under-represent marginalized groups due to non-response or lack of telephone access.
+- Response biases due to social desirability in reporting giving/volunteering.
+Sources of error
+- Sampling error: due to the sample design and finite sample size.
+- Non-response bias: respondents may differ from non-respondents on key variables.
+- Measurement error: self-reported data may include recall bias.
+- Processing errors: though minimized through quality control, still possible.
+Survey weights:
+Weights were applied to ensure representativeness of the Canadian population. These weights adjust for: Unequal probabilities of selection, Household and individual non-response, and post-stratification to population totals based on age, sex, and province. Bootstrap weights were also provided to allow for accurate variance estimation. 
+Data processing included:
+Automated and manual editing to detect inconsistencies Coding of open-ended responses, and verification of logical relationships between survey items. Statistics Canada applied standardized quality assurance procedures before releasing the final dataset. 
+Cleaning and imputation:
+Missing or inconsistent responses were addressed using imputation methods, such as Donor (nearest neighbour) imputation, Deterministic imputation based on related variables. These methods reduced item non-response while preserving data integrity.
+
 ```
 
 ## Rubric
