@@ -49,10 +49,11 @@ The purpose is to explore how a person's music preference changes with age and d
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-Target population: adults over 18
-Sample frame: students, faculty and staff at UofT
-Sample units: people who meet the age criteria
-Observational units: survey responses
+
+Target population: Adults aged 18 years and older who reside in Canada and regularly listen to music. This population is appropriate because it allows for both cross-sectional comparisons between age groups and retrospective comparisons within individuals across different life stages. 
+Sampling frame: The sampling frame will consist of students, faculty, and staff at the University of Toronto, as well as community members recruited online. Participants will be accessed through university email listservs, course mailing lists, and official student newsletters. The survey will also be distributed via online platforms such as social media (e.g., Facebook groups, Reddit communities related to music) and shared through a secure survey link hosted on Qualtrics. 
+Sampling units: Individual persons who meet the age and music-listening criteria and receive the survey invitation. 
+Observational units: Each completed survey response represents one observational unit, as data are collected at the individual level. 
 ```
 
 Your 5-10 question survey:
@@ -92,6 +93,13 @@ Sources of error
 - Non-response bias: respondents may differ from non-respondents on key variables.
 - Measurement error: self-reported data may include recall bias.
 - Processing errors: though minimized through quality control, still possible.
+Survey weights:
+Weights were applied to ensure representativeness of the Canadian population. These weights adjust for: Unequal probabilities of selection, Household and individual non-response, and post-stratification to population totals based on age, sex, and province. Bootstrap weights were also provided to allow for accurate variance estimation. 
+Data processing included:
+Automated and manual editing to detect inconsistencies Coding of open-ended responses, and verification of logical relationships between survey items. Statistics Canada applied standardized quality assurance procedures before releasing the final dataset. 
+Cleaning and imputation:
+Missing or inconsistent responses were addressed using imputation methods, such as Donor (nearest neighbour) imputation, Deterministic imputation based on related variables. These methods reduced item non-response while preserving data integrity.
+
 ```
 
 ## Rubric
